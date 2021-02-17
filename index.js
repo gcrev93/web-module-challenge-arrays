@@ -47,6 +47,7 @@ Use the copy function below to do the following:
 
 function copy(arr){
     let newArray = [...arr];
+    console.log(newArray);
     return newArray;
 }    
 
