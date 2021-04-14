@@ -49,7 +49,7 @@ function copy(array){
     return array;
 }    
 
-// copy(originalFlavors)
+copy(originalFlavors)
 
 
 
@@ -68,7 +68,7 @@ function is31Flavors(array){
   if(array.length === 31){
       return true
   }
-  
+
   return false
 }
 
